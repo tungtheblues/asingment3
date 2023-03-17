@@ -1,0 +1,385 @@
+* {
+    margin: 0px;
+    /* font-family: 'fontello'; */
+
+}
+
+.bg-grey {
+    background: #f7f7f7;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    color: #1d3553;
+}
+
+section>.container {
+    width: 1170px;
+    margin: auto;
+    display: block;
+    /* padding: 0 50px 0 50px; */
+    /* padding-top: 0; */
+}
+
+#nav-bar {
+    display: flex;
+    text-align: center;
+    margin: 60px;
+    margin-top: 0;
+    height: 30;
+}
+
+/* .banner {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.59),
+            rgba(0, 0, 0, 0.6)), url("../images/banner.jpg");
+    background-size: cover;
+} */
+
+.banner {
+    display: block;
+}
+
+.img-banner {
+    position: relative;
+    background-image: url(../images/banner1.jpg);
+    width: 100%;
+    padding-top: 42%;
+    /* align-items: center; */
+    background-size: cover;
+    filter: brightness(50%);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.text-banner {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    text-align: center;
+    color: #dee2e6;
+}
+
+
+/* NAVBAR */
+#nav-bar a:link,
+a:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    border-left: 2px solid #dee2e6;
+    padding: 30px 20px 32px;
+    /* padding-bottom: 0; */
+    /* padding-top: 0; */
+    align-items: center;
+}
+
+/* a {
+    border-left: 2px solid #dee2e6;
+}
+
+a:last-child {
+    border-right: 2px solid #dee2e6;
+}
+
+a:nth-child(2) {
+    border-right: 2px solid #dee2e6;
+} */
+
+#nav-bar a:hover,
+a:active {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.text-nav {
+    display: inline-block;
+    margin: 10px 70px 0;
+}
+
+.text-nav h1 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.text-nav span {
+    font-size: 8px;
+    ;
+}
+
+
+.icon {
+    color: #649bd7;
+    font-weight: bold;
+}
+
+
+
+/* THÔNG TIN CÁ NHÂN */
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* padding: 40px 20px 24px; */
+    justify-items: center;
+    align-items: center;
+    gap: 40px;
+    line-height: 2;
+    margin-top: 40px;
+}
+
+.mt-40 {
+    margin-bottom: 30px;
+}
+
+#target,
+#personal-info {
+    padding: 40px 30px;
+    font-size: 18px;
+
+}
+
+
+.section-title {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+/*PHẦN THÔNG TIN NGHỀ NGHIỆP */
+.job-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    row-gap: 20px;
+    column-gap: 40px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.job-box-grid {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    column-gap: 20px;
+    row-gap: 40px;
+    border: 1px solid #bdc3c7;
+    align-items: center;
+    padding: 24px;
+}
+
+.job-box-grid-1 {
+    padding-bottom: 0;
+
+}
+
+
+.job-content {
+    grid-column: 1/-1;
+    margin: 20px;
+}
+
+.job-title {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.now {
+    background-color: #1c7ed6;
+    padding: 4px 8px;
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.list {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.list-1 {
+    margin-bottom: 24px;
+}
+
+.job-node::before {
+    content: "•";
+    color: #1c7ed6;
+    font-weight: bolder;
+    display: inline-block;
+    position: absolute;
+    font-size: 18px;
+    left: -20px;
+}
+
+/* PHẦN SỞ THÍCH */
+
+.icon-hobby {
+    width: 50px !important;
+    height: 50px !important;
+    color: #72a6d4;
+    border: 2px solid #72a6d4 !important;
+    padding: 10px !important;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+/* PHẦN NGÔN NGỮ */
+.good {
+    background-color: #1c7ed6;
+    display: inline-block;
+    height: 2px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.bad {
+    background-color: #cfcfcf;
+    display: inline-block;
+    height: 2px;
+    width: 50px;
+    margin-right: 10px
+}
+
+
+/* PHẦN CHỨNG CHỈ */
+.cer-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+    row-gap: 30px;
+}
+
+.img-cer {
+    width: 240px;
+    margin-right: 10px;
+}
+
+.cer-content {
+    display: flex;
+    gap: 20px;
+    /* font-size: 1px; */
+}
+
+.cer-content-2 {
+    padding-left: 20px;
+    border-left: 2px solid #bdc3c7;
+}
+
+.cer-content-3 {
+    padding-top: 20px;
+    border-top: 2px solid #bdc3c7;
+    grid-column: 1/-1;
+}
+
+/* PHẦN DỰ ÁN */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+}
+
+.project-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-title {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    border-top: 1px solid #bdc3c7;
+    border-left: 1px solid #bdc3c7;
+    border-right: 1px solid #bdc3c7;
+
+}
+
+.project-border {
+    padding: 10px;
+    border-top: 1px solid #bdc3c7;
+    border-left: 1px solid #bdc3c7;
+    border-right: 1px solid #bdc3c7;
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
+
+tr td:first-child {
+    width: 90px;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+tr {
+    border: 1px solid #bdc3c7 !important;
+}
+
+
+/* PHẦN FOOTER */
+
+#footer {
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footer a:link,
+a:visited {
+    font-size: 20px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+
+
+/* Project charter */
+.border-lg {
+    border: 20px solid #1c7ed6;
+}
+
+.border-lg-1 {
+    border: 20px solid #1c7ed6;
+    border-left: unset;
+}
+
+.border-lg-2 {
+    border: 20px solid #1c7ed6;
+    border-top: unset;
+}
+
+.border-lg-3 {
+    border-bottom: 20px solid #1c7ed6;
+    border-right: 20px solid #1c7ed6;
+}
+
+.border3 {
+    border-bottom: 1px dashed #1c7ed6;
+}
+
+.border-lg-4 {
+    border: 20px solid #1c7ed6;
+    border-left: unset;
+}
+
+.border1 {
+    border-bottom: 2px solid #bdc3c7
+}
+
+.border123 {
+    border-bottom: 1px solid #bdc3c7
+}
+
+.btn-custom {
+    width: 150px;
+    height: 70px;
+    font-size: 20px !important;
+    ;
+}

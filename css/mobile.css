@@ -1,0 +1,58 @@
+@media(max-width:760px) {
+    .text-nav {
+        display: none;
+    }
+
+    #nav-bar {
+        height: auto;
+        display: block !important;
+        margin: 30px !important;
+
+    }
+
+
+
+    #nav-bar a:link,
+    a:visited {
+        display: block !important;
+        padding: 10px;
+        text-align: left;
+        border: unset;
+    }
+
+    .img-banner {
+        display: none;
+        /* max-width: 760px; */
+    }
+
+    .text-banner {
+        display: none;
+    }
+
+    #personal-info {
+        font-size: 12px;
+        padding-right: 40px;
+        max-width: 768px;
+    }
+
+    #target {
+        font-size: 12px;
+        max-width: 768px;
+
+    }
+
+    .cer-content-2 {
+        border-left: 0;
+        border-top: 2px solid #bdc3c7;
+        padding-top: 20px;
+    }
+
+    #footer a:link {
+        margin-right: 10px !important;
+    }
+
+    .border-lg-1,
+    .border-lg-3,
+    .border-lg-4 {
+        border-left: 20px solid #1c7ed6;
+    }

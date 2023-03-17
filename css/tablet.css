@@ -1,0 +1,56 @@
+@media(min-width:768px) and (max-width:1024px) {
+
+    .text-nav {
+        display: none;
+    }
+
+    .text-banner {
+        transform: translate(-50%, -100%);
+    }
+
+    #nav-bar a:link,
+    a:visited {
+        padding: 10px;
+        margin-right: 1rem;
+        padding-bottom: 30px;
+    }
+
+    #nav-bar {
+        margin-top: 1rem;
+    }
+
+    #personal-info {
+        font-size: 16px;
+        padding-right: 40px;
+    }
+
+    #target {
+        font-size: 16px;
+    }
+
+    .cer-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .project-title {
+        font-size: 14px;
+    }
+
+    .project-border {
+        font-size: 10px;
+        padding: 10px 4px !important;
+    }
+
+    .project-border span {
+        margin-right: 5px !important;
+    }
+
+    .border-lg-1,
+    .border-lg-3,
+    .border-lg-4 {
+        border-left: 20px solid #1c7ed6;
+    }
+
+
+}
